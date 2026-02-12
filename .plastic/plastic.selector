@@ -1,0 +1,4 @@
+repository "Watebayo/Watebayo@9072233512669@cloud"
+  path "/"
+    br "/main"
+    co "/main"
