@@ -105,8 +105,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e595a782251ad8f4c804f9ff70ef7aaf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveBalloon
-  health: 1
-  moveSpeed: 6
+  health: 2
+  moveSpeed: 4
   maxHeight: 7
 --- !u!61 &7502886804503743431
 BoxCollider2D:
