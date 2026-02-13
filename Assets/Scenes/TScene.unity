@@ -469,6 +469,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MoveBalloon
   health: 1
   moveSpeed: 0.7
+  maxHeight: 7
 --- !u!212 &747035551
 SpriteRenderer:
   serializedVersion: 2
@@ -797,6 +798,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MoveBalloon
   health: 100
   moveSpeed: 0.05
+  maxHeight: 7
 --- !u!212 &898183219
 SpriteRenderer:
   serializedVersion: 2
@@ -884,7 +886,7 @@ Transform:
   m_GameObject: {fileID: 1191948934}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.52, y: -3.4299998, z: 0}
+  m_LocalPosition: {x: 3.52, y: -1.84, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -963,6 +965,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MoveBalloon
   health: 3
   moveSpeed: 0.3
+  maxHeight: 7
 --- !u!61 &1191948938
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1116,6 +1119,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MoveBalloon
   health: 2
   moveSpeed: 0.5
+  maxHeight: 7
 --- !u!61 &1521343024
 BoxCollider2D:
   m_ObjectHideFlags: 0
