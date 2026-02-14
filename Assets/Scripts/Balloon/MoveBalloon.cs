@@ -2,7 +2,10 @@ using UnityEngine;
 
 public class MoveBalloon : MonoBehaviour
 {
+    
+   
     public int health = 5;
+    public int pointValue = 1;
     [SerializeField] private float moveSpeed = 2f;
     [SerializeField] private float maxHeight = 10f;
     void Update()
@@ -20,8 +23,10 @@ public class MoveBalloon : MonoBehaviour
     {
         if (health <= 0)
         {
+            
             Destroy(gameObject);
-        
+            //pointSystem.points += pointValue;
+
             //hier later nog SFX
         }
     }
