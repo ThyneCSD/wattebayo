@@ -106,6 +106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveBalloon
   health: 3
+  pointValue: 3
   moveSpeed: 2
   maxHeight: 7
 --- !u!61 &1504255540518069527

@@ -10,6 +10,7 @@ public class SpawnBalloon : MonoBehaviour
     [SerializeField] private float spawnInterval = 1f;
     [SerializeField] private float levelDuration = 1f;
 
+
     private bool canSpawn = true;
     public bool levelFinished = false;
     void Update()
@@ -17,7 +18,6 @@ public class SpawnBalloon : MonoBehaviour
         StartCoroutine(SpawnBalloonsCoroutine());
         StartCoroutine(LevelDuration());
     }
-
     private IEnumerator SpawnBalloonsCoroutine()
     {
         while (canSpawn && !levelFinished)
