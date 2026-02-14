@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2447394545105753045}
   - component: {fileID: 4609144744093965480}
   m_Layer: 0
-  m_Name: pixil-frame-0 (3)_0 (3)
+  m_Name: BlackBalloon
   m_TagString: Balloon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
