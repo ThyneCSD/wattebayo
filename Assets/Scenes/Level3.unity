@@ -434,6 +434,8 @@ MonoBehaviour:
   balloons:
   - {fileID: 5767486124002893223, guid: 032482cf1fe87084d9251fc368dab173, type: 3}
   - {fileID: 8078883342819106833, guid: d0d529ddb0015134bb387145178de539, type: 3}
+  - {fileID: 111867749086780930, guid: 363bff6b7fecf5c418fbb03d4c8f198a, type: 3}
+  - {fileID: 4115333082848287285, guid: 77218671354cd8d439c9f2be75c4b4fe, type: 3}
   spawnPoints:
   - {fileID: 429831659}
   - {fileID: 1083504228}
@@ -444,7 +446,7 @@ MonoBehaviour:
   - {fileID: 654090630}
   - {fileID: 503378502}
   spawnInterval: 1.5
-  levelDuration: 20
+  levelDuration: 25
   levelFinished: 0
 --- !u!114 &287327985
 MonoBehaviour:
@@ -472,7 +474,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edbb20c0a48a8054ebbc7dedc330a1c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NextLevelButton
-  nextSceneName: Level2
+  nextSceneName: Level4
 --- !u!1 &298725075
 GameObject:
   m_ObjectHideFlags: 0
@@ -929,7 +931,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.3410252, g: 0.85660374, b: 0.3572323, a: 0}
+  m_BackGroundColor: {r: 0.34117645, g: 0.63023096, b: 0.85490197, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
